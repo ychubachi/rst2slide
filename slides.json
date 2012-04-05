@@ -1,0 +1,55 @@
+{
+    "embeddedFonts" : [
+	[
+	    "migmix-1p-regular.ttf",
+	    "migmix-1p-bold.ttf",
+	    "migu-1m-regular.ttf",
+	    "migu-1m-bold.ttf"
+	]
+    ],
+    "fontsAlias" : {
+	"stdFont": "MigMix 1P Regular",
+	"stdBold": "MigMix 1P Bold",
+	"stdItalic": "MigMix 1P Bold",
+	"stdBoldItalic": "MigMix 1P Bold",
+	"stdMono": "Migu 1M Regular"
+    },
+    "pageSetup": {
+	"width": "271mm",
+	"height": "203mm",
+	"margin-top": "10mm",
+	"margin-bottom": "10mm",
+	"margin-left": "10mm",
+	"margin-right": "10mm",
+	"spacing-header": "15mm",
+	"spacing-footer": "15mm",
+	"firstTemplate": "coverPage"
+    },
+    "pageTemplates" : {
+	"coverPage": {
+	    "frames": [
+                ["10%", "10%", "80%", "80%"]
+	    ],
+	    "showHeader": false,
+	    "showFooter": false
+	},
+	"cutePage": {
+            "background" : "background.svg",
+	    "defaultFooter": "###Page### / ###Total###"
+	}
+    },
+    "styles" : [
+	["base" ,
+	 {
+	     "wordWrap": "CJK",
+	     "fontSize": 24
+	 }
+	],
+	["heading1" ,
+	 {
+	     "fontSize": "175%",
+	     "spaceAfter": 20
+	 }
+	]
+    ]
+}

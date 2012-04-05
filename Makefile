@@ -1,17 +1,24 @@
-TARGET = test.pdf
-OBJS = test.rst
-STYLE = slides.style
-BACKGROUND = background.svg
+TARGET = index.pdf
+OBJS = index.rst
+
+CONFIG = ./rst2pdf.conf
+STYLE = ./slides.json
+BACKGROUND = ./background.svg
 
 .SUFFIXES: .rst .pdf
 
 all: $(TARGET)
 
-$(TARGET): $(STYLE) $(BACKGROUND)
+show: $(TARGET)
+	impressive $(TARGET)
 
-clean:
-	-rm -f *~
+$(TARGET): $(STYLE) $(BACKGROUND) $(CONFIG)
 
 .rst.pdf:
-	rst2pdf -s $(STYLE) -b1 $<
-	impressive $@
+	rst2pdf --stylesheets=$(STYLE) --break-level=2 $<
+
+clean:
+	-rm -f *~ *.pdf
+
+style:
+	rst2pdf --print-styles | less
