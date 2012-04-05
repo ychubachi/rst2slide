@@ -10,11 +10,12 @@
     },
     "pageTemplates" : {
 	"coverPage": {
+            "background" : "cover.svg",
 	    "showHeader": false,
 	    "showFooter": false
 	},
 	"cutePage": {
-            "background" : "background.svg",
+            "background" : "back.svg",
 	    "defaultFooter": "###Page### / ###Total###"
 	}
     },

@@ -1,8 +1,10 @@
 TARGET = slide.pdf
 OBJS = slide.rst
 
-STYLE = ./style.json
-BACKGROUND = ./background.svg
+STYLE = style.json
+BACKGROUND = cover.svg back.svg
+
+DEBUG = --show-frame-boundary
 
 .SUFFIXES: .rst .pdf
 
@@ -14,7 +16,7 @@ show: $(TARGET)
 $(TARGET): $(STYLE) $(BACKGROUND)
 
 .rst.pdf:
-	rst2pdf --stylesheets=$(STYLE) --break-level=2 --show-frame-boundary $<
+	rst2pdf --stylesheets=$(STYLE) --break-level=2 $(DEBUG) $<
 
 clean:
 	-rm -f *~ *.pdf
