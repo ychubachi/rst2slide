@@ -1,8 +1,7 @@
 TARGET = index.pdf
 OBJS = index.rst
 
-CONFIG = ./rst2pdf.conf
-STYLE = ./slides.json
+STYLE = ./style.json
 BACKGROUND = ./background.svg
 
 .SUFFIXES: .rst .pdf
@@ -12,7 +11,7 @@ all: $(TARGET)
 show: $(TARGET)
 	impressive $(TARGET)
 
-$(TARGET): $(STYLE) $(BACKGROUND) $(CONFIG)
+$(TARGET): $(STYLE) $(BACKGROUND)
 
 .rst.pdf:
 	rst2pdf --stylesheets=$(STYLE) --break-level=2 $<
