@@ -2,10 +2,10 @@
     "pageSetup": {
 	"width": "271mm",
 	"height": "203mm",
-	"margin-top": "10mm",
-	"margin-bottom": "10mm",
-	"margin-left": "10mm",
-	"margin-right": "10mm",
+	"margin-top": "2mm",
+	"margin-bottom": "2mm",
+	"margin-left": "2mm",
+	"margin-right": "2mm",
 	"spacing-header": "0mm",
 	"spacing-footer": "0mm",
 	"firstTemplate": "coverPage"
@@ -25,6 +25,14 @@
 	    "showFooter": false
 	},
 	"cutePage": {
+	    frames: [
+                [
+                    "5%",
+                    "5%",
+                    "90%",
+                    "90%"
+                ]
+            ],
             "background" : "back.svg"
 	}
     },
@@ -56,9 +64,9 @@
 	    }
 	],
 	[
-	    "heading1" ,
+	    "heading3" ,
 	    {
-		"fontSize": "144%"
+		"fontSize": "100%"
 	    }
 	],
 	[
@@ -68,9 +76,9 @@
 	    }
 	],
 	[
-	    "heading3" ,
+	    "heading1" ,
 	    {
-		"fontSize": "100%"
+		"fontSize": "144%"
 	    }
 	]
     ]
