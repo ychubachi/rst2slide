@@ -6,51 +6,71 @@
 	"margin-bottom": "10mm",
 	"margin-left": "10mm",
 	"margin-right": "10mm",
+	"spacing-header": "0mm",
+	"spacing-footer": "0mm",
 	"firstTemplate": "coverPage"
     },
     "pageTemplates" : {
 	"coverPage": {
+	    frames: [
+                [
+                    "5%",
+                    "0cm",
+                    "90%",
+                    "70%"
+                ]
+            ],
             "background" : "cover.svg",
 	    "showHeader": false,
 	    "showFooter": false
 	},
 	"cutePage": {
-            "background" : "back.svg",
-	    "defaultFooter": "###Page### / ###Total###"
+            "background" : "back.svg"
 	}
     },
     "styles" : [
 	[
 	    "normal" ,
 	    {
-		"fontSize": 24
+		"fontSize": 21
 	    }
 	],
 	[
 	    "header" ,
 	    {
-		"fontSize": "80%",
+		"fontSize": "83%",
 		"alignment": "left"
 	    }
 	],
 	[
 	    "footer" ,
 	    {
-		"fontSize": "80%",
+		"fontSize": "83%",
 		"alignment": "right"
+	    }
+	],
+	[
+            "heading",
+	    {
+		"spaceAfter": 12
 	    }
 	],
 	[
 	    "heading1" ,
 	    {
-		"fontSize": "175%",
-		"spaceAfter": 20
+		"fontSize": "144%"
 	    }
 	],
 	[
 	    "heading2" ,
 	    {
-		"fontSize": "150%"
+		"fontSize": "120%"
+	    }
+	],
+	[
+	    "heading3" ,
+	    {
+		"fontSize": "100%"
 	    }
 	]
     ]

@@ -4,7 +4,7 @@ OBJS = slide.rst
 STYLE = style.json
 BACKGROUND = cover.svg back.svg
 
-DEBUG = --show-frame-boundary
+# DEBUG = --show-frame-boundary
 
 .SUFFIXES: .rst .pdf
 

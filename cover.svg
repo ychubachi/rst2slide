@@ -14,7 +14,7 @@
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="background.svg"
+   sodipodi:docname="cover.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/ralsina/Desktop/proyectos/rst/trunk/rst2pdf/tests/input/background.png"
    inkscape:export-xdpi="120"
@@ -61,14 +61,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.86411002"
      inkscape:cx="469.59697"
-     inkscape:cy="350.79431"
+     inkscape:cy="443.37511"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="842"
-     inkscape:window-x="738"
-     inkscape:window-y="208"
+     inkscape:window-width="977"
+     inkscape:window-height="666"
+     inkscape:window-x="662"
+     inkscape:window-y="82"
      units="mm"
      inkscape:window-maximized="0" />
   <metadata
@@ -88,7 +88,7 @@
      id="layer1"
      transform="translate(0,400.39368)">
     <g
-       transform="matrix(0.79611221,0,0,0.79554,466.71782,-1037.6643)"
+       transform="matrix(2.3894753,0,0,2.3877578,-1119.9647,-2382.9454)"
        id="layer1-3"
        inkscape:label="レイヤー 1">
       <g
