@@ -2,10 +2,10 @@
     "pageSetup": {
 	"width": "288.996mm",
 	"height": "216.747mm",
-	"margin-top": "2mm",
-	"margin-bottom": "2mm",
-	"margin-left": "2mm",
-	"margin-right": "2mm",
+	"margin-top": "5mm",
+	"margin-bottom": "5mm",
+	"margin-left": "5mm",
+	"margin-right": "5mm",
 	"spacing-header": "0mm",
 	"spacing-footer": "0mm",
 	"firstTemplate": "coverPage"
@@ -15,7 +15,7 @@
 	    frames: [
                 [
                     "5%",
-                    "0cm",
+                    "0%",
                     "90%",
                     "70%"
                 ]

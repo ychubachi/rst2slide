@@ -11,7 +11,7 @@ BACKGROUND = cover.svg back.svg
 all: $(TARGET)
 
 show: $(TARGET)
-	impressive $(TARGET)
+	zathura $(TARGET)
 
 $(TARGET): $(STYLE) $(BACKGROUND)
 

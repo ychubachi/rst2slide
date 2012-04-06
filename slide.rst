@@ -24,7 +24,11 @@ rst2pdfでスライドを作る。
 - style/cover.svg
 - style/back.svg
 
+マージンとスペーシング
+----------------------
 
+.. image:: size.png
+   :height: 10cm
 
 強調
 ----
