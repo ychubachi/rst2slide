@@ -16,7 +16,7 @@ show: $(TARGET)
 $(TARGET): $(STYLE) $(BACKGROUND)
 
 .rst.pdf:
-	rst2pdf --stylesheets=$(STYLE) --break-level=2 $(DEBUG) $<
+	rst2pdf --stylesheets=$(STYLE) --break-level=2 $(DEBUG) --output=$@ $<
 
 clean:
 	-rm -f *~ *.pdf

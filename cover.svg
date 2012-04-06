@@ -60,13 +60,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.61101805"
-     inkscape:cx="-173.73643"
+     inkscape:cx="409.04065"
      inkscape:cy="420.77734"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
+     inkscape:window-width="1215"
+     inkscape:window-height="776"
      inkscape:window-x="65"
      inkscape:window-y="24"
      units="px"
@@ -147,10 +147,10 @@
       </g>
     </g>
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.75690788;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3016"
-       width="1023.2431"
-       height="767.2431"
+       width="1023"
+       height="767"
        x="0.37845394"
        y="-448.72391" />
   </g>

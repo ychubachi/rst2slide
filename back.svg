@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="960.23621"
-   height="719.29132"
+   width="1024"
+   height="768"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.48.3.1 r9886"
@@ -59,83 +59,18 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.8881444"
-     inkscape:cx="859.29926"
-     inkscape:cy="630.74607"
+     inkscape:zoom="0.77994792"
+     inkscape:cx="512"
+     inkscape:cy="384"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
+     inkscape:window-width="1215"
+     inkscape:window-height="776"
      inkscape:window-x="65"
      inkscape:window-y="24"
-     units="mm"
-     inkscape:window-maximized="1">
-    <sodipodi:guide
-       position="0.10356069,719.18777"
-       orientation="35.225952,0"
-       id="guide3008" />
-    <sodipodi:guide
-       position="0.10356069,683.96102"
-       orientation="0,1"
-       id="guide3010" />
-    <sodipodi:guide
-       position="960.13269,683.96182"
-       orientation="-35.225952,0"
-       id="guide3012" />
-    <sodipodi:guide
-       position="960.13269,719.18777"
-       orientation="0,-960.02913"
-       id="guide3014" />
-    <sodipodi:guide
-       position="0.17417337,719.11715"
-       orientation="718.94299,0"
-       id="guide3016" />
-    <sodipodi:guide
-       position="0.17417337,0.17416058"
-       orientation="0,35.084723"
-       id="guide3018" />
-    <sodipodi:guide
-       position="35.258896,0.17416058"
-       orientation="-718.94299,0"
-       id="guide3020" />
-    <sodipodi:guide
-       position="35.258896,719.11715"
-       orientation="0,-35.084723"
-       id="guide3022" />
-    <sodipodi:guide
-       position="0.10356069,35.329495"
-       orientation="35.225952,0"
-       id="guide3024" />
-    <sodipodi:guide
-       position="0.10356069,0.1035429"
-       orientation="0,960.02913"
-       id="guide3026" />
-    <sodipodi:guide
-       position="960.13269,0.1035429"
-       orientation="-35.225952,0"
-       id="guide3028" />
-    <sodipodi:guide
-       position="960.13269,35.329495"
-       orientation="0,-960.02913"
-       id="guide3030" />
-    <sodipodi:guide
-       position="924.97729,719.11715"
-       orientation="718.94299,0"
-       id="guide3032" />
-    <sodipodi:guide
-       position="924.97729,0.17416058"
-       orientation="0,35.084717"
-       id="guide3034" />
-    <sodipodi:guide
-       position="960.06201,0.17416058"
-       orientation="-718.94299,0"
-       id="guide3036" />
-    <sodipodi:guide
-       position="960.06201,719.11715"
-       orientation="0,-35.084717"
-       id="guide3038" />
-  </sodipodi:namedview>
+     units="px"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -151,9 +86,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,400.39368)">
+     transform="translate(0,449.10236)">
     <g
-       transform="matrix(1.2509833,0,0,1.2500842,231.98197,-1444.2362)"
+       transform="matrix(1.2509833,0,0,1.2500842,290.96027,-1494.2395)"
        id="layer1-3"
        inkscape:label="レイヤー 1">
       <g
@@ -212,18 +147,11 @@
       </g>
     </g>
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1.67111063;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect3023"
-       width="958.56512"
-       height="717.62024"
-       x="0.83555526"
-       y="-399.55814" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.92179441;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect3075"
-       width="959.31439"
-       height="718.36957"
-       x="0.17417337"
-       y="-399.64609" />
+       width="1023"
+       height="767"
+       x="0.49999064"
+       y="-448.60236" />
   </g>
 </svg>
