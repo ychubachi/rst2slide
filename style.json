@@ -40,7 +40,25 @@
 	[
 	    "normal" ,
 	    {
-		"fontSize": 21
+		"fontSize": 24
+	    }
+	],
+	[
+	    "heading1" ,
+	    {
+		"fontSize": "144%"
+	    }
+	],
+	[
+	    "heading2" ,
+	    {
+		"fontSize": "120%"
+	    }
+	],
+	[
+	    "heading3" ,
+	    {
+		"fontSize": "100%"
 	    }
 	],
 	[
@@ -64,21 +82,17 @@
 	    }
 	],
 	[
-	    "heading3" ,
+	    "bullet-list",
 	    {
-		"fontSize": "100%"
+	        spaceBefore: 8,
+	        spaceAfter: 8
 	    }
 	],
 	[
-	    "heading2" ,
+	    "bullet-list-item",
 	    {
-		"fontSize": "120%"
-	    }
-	],
-	[
-	    "heading1" ,
-	    {
-		"fontSize": "144%"
+	        spaceBefore: 4,
+	        spaceAfter: 0
 	    }
 	]
     ]
